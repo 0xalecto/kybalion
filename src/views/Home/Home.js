@@ -158,15 +158,6 @@ const Home = () => {
 
         </Grid>
 
-        <Grid container spacing={3}>
-    <Grid item  xs={12} sm={12} justify="center"  style={{ margin: '12px', display: 'flex' }}>
-            <Alert variant="filled" severity="warning">
-              <b>
-      Please visit our <StyledLink target="_blank" href="https://docs.tomb.finance">documentation</StyledLink> before purchasing TOMB or TSHARE!</b>
-            </Alert>
-        </Grid>
-        </Grid>
-
         {/* TVL */}
         <Grid item xs={12} sm={4}>
           <Card>
