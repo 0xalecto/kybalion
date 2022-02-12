@@ -1927,6 +1927,19 @@
   dependencies:
     prop-types "^15.7.2"
 
+"@glide-finance/sdk@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@glide-finance/sdk/-/sdk-1.0.0.tgz#3087cda2a09d5dd3316497a6436cea6e15e3da74"
+  integrity sha512-qZ64+XfeHr9Bgov6Upl30n7txSx61rvSyv9qLLllVqAKt7Rm1Gxm/tG+P52ALr//zfPCbgJM2JlqSIJOwFfkZQ==
+  dependencies:
+    "@pancakeswap-libs/pancake-swap-core" "^0.1.0"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.1"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
+
 "@graphql-tools/batch-delegate@^6.2.4", "@graphql-tools/batch-delegate@^6.2.6":
   version "6.2.6"
   resolved "https://registry.yarnpkg.com/@graphql-tools/batch-delegate/-/batch-delegate-6.2.6.tgz#fbea98dc825f87ef29ea5f3f371912c2a2aa2f2c"

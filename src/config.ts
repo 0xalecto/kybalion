@@ -1,11 +1,12 @@
 // import { ChainId } from '@pancakeswap-libs/sdk';
-import { ChainId } from '@spookyswap/sdk';
+// import { ChainId } from '@spookyswap/sdk';
 import { Configuration } from './tomb-finance/config';
 import { BankInfo } from './tomb-finance';
+import { ChainId } from '@glide-finance/sdk';
 
 const configurations: { [env: string]: Configuration } = {
   development: {
-    chainId: ChainId.FTMTESTNET,
+    chainId: ChainId.TESTNET ,
     networkName: 'Fantom Opera Testnet',
     ftmscanUrl: 'https://testnet.ftmscan.com',
     defaultProvider: 'https://rpc.testnet.fantom.network/',
