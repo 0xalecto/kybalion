@@ -11,8 +11,8 @@
     "@material-ui/icons": "^4.11.2",
     "@material-ui/lab": "^4.0.0-alpha.58",
     "@reduxjs/toolkit": "^1.4.0",
-    "@spiritswap/sdk": "git+https://github.com/Layer3Org/spiritswap-sdk.git",
-    "@spookyswap/sdk": "git+https://github.com/SpookySwap/spookyswap-sdk.git",
+    "@spiritswap/sdk": "https://github.com/Layer3Org/spiritswap-sdk",
+    "@spookyswap/sdk": "https://github.com/SpookySwap/spookyswap-sdk",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -41,7 +41,7 @@
     "redux-localstorage-simple": "^2.3.1",
     "styled-components": "^5.1.1",
     "typescript": "^3.9.7",
-    "use-wallet": "github:OGBoogieTomb/use-wallet",
+    "use-wallet": "OGBoogieTomb/use-wallet",
     "web3": "^1.2.11"
   },
   "scripts": {
@@ -71,17 +71,5 @@
     "@types/react-router-dom": "^5.1.5",
     "@types/styled-components": "^5.1.2",
     "prettier": "2.3.1"
-  },
-  "description": "Thanks for taking the time to contribute! You can start by reading our [Contribution guidelines](CONTRIBUTING.md) first.",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/0xalecto/kybalion.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/0xalecto/kybalion/issues"
-  },
-  "homepage": "https://github.com/0xalecto/kybalion#readme"
+  }
 }
